@@ -1,3 +1,3 @@
 Before                     |  After
 :-------------------------:|:-------------------------:
-![](https://...Dark.png)  |  ![output1](demo/output1.png)
+![](demo/test_1.png)  |  ![output1](demo/output1.PNG)
