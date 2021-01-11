@@ -2,7 +2,7 @@
 
 Both local and global parallel implementations of histogram equalisation algorithms to correct image contrast, using the OpenCL framework. Supports variable bin size and number. the parallel implementation increases the speed of the operations dramatically, especially for large images. The algorithm works by generating an image histogram, then normalising the distribution of colours to spread out the most frequent values. Both colour and greyscale images can be operated on (*.ppm* and *.pgm* files respectively).
 
-For more on histogram equalisation see ![here](https://en.wikipedia.org/wiki/Histogram_equalization).
+For more on histogram equalisation see [here](https://en.wikipedia.org/wiki/Histogram_equalization).
 
 ## Demo
 
