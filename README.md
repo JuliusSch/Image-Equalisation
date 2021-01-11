@@ -1,7 +1,8 @@
-# Image Equalisation Program
+# Image contrast adjustment using histogram equalisation
 
-Both local and global parallel implementations of equalisation algorithms to correct image contrast, using the OpenCL framework. Supports variable bin size and number.
-The algorithm works by sorting each colour that appears in the image into a bin, then once each colour total has been found this data set is normalised and the image reconstructed. Both colour and greyscale images can be operated on (*.ppm* and *.pgm* files respectively).
+Both local and global parallel implementations of histogram equalisation algorithms to correct image contrast, using the OpenCL framework. Supports variable bin size and number. the parallel implementation increases the speed of the operations dramatically, especially for large images. The algorithm works by generating an image histogram, then normalising the distribution of colours to spread out the most frequent values. Both colour and greyscale images can be operated on (*.ppm* and *.pgm* files respectively).
+
+For more on histogram equalisation see ![here](https://en.wikipedia.org/wiki/Histogram_equalization).
 
 ## Demo
 
