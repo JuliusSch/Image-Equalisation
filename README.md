@@ -1,2 +1,2 @@
 
-![](https://...Ocean.png)
+![](demo/test.pgm)
